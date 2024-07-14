@@ -1,0 +1,67 @@
+\documentclass[UTF8]{ctexart}
+
+\usepackage{amsmath}
+\usepackage{cases}
+\usepackage{cite}
+\usepackage{graphicx}
+\usepackage[margin=1in]{geometry}
+\geometry{a4paper}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\newtheorem{thm}{Theorem}[section]
+\newtheorem{defn}[thm]{Definition}
+\newtheorem{lem}[thm]{Lemma}
+\newtheorem{prop}[thm]{Proposition}
+\newtheorem{cor}[thm]{Corollary}
+\newtheorem{rem}[thm]{Remark}
+\newtheorem{exa}[thm]{Example}
+\newtheorem{exe}[thm]{Exercise}
+\newtheorem{for}[thm]{Formula}
+
+\title{Homework2024.7.15}
+\author{Rerhythm}
+\date{2024年7月15日}
+\pagenumbering{arabic}
+
+\begin{document}
+
+\fancyhead[L]{Rerhythm}
+\fancyhead[C]{Homework2024.7.15}
+\fancyfoot[C]{\thepage}
+
+\maketitle
+\section{Introduction}
+早上好，或者中午、下午、晚上好，昨天我们学习了实数、方程、乘方的运算，并且定义了一种新的运算：开$n$次方。用这些东西，我们建立了一项重要的本领：指数运算。今天我们先练练这一项，请在7月15日晚上睡觉前完成发给我，最迟不要迟于7月16日晚上。
+\section{Review}
+\begin{for}[指数的运算法则]
+$m$，$n$是正整数，$a$，$b$是任意非0实数，我们有
+    \[a^m\cdot a^n=a^{m+n}\]
+    \[(a^m)^n=a^{mn}\]
+    \[a^{-m}=\frac{1}{a^m}\]
+    \[a^{\frac{1}{m}}=\sqrt[m]{a}\]
+    \[(ab)^m=a^mb^m\]
+\end{for}
+\begin{rem}
+    通过上述五条运算性质（或定义），我们可以自然的得到$m$，$n$是有理数情况下的完整运算法则，这些留给了你作为思考题，尝试进行推导。
+\end{rem}
+\section{Exercise}
+\begin{exe}[概念回顾]
+    用方程叙述一个数$a$的$m$（$m$为正整数）次方根的定义，并说明什么情况下$a$的$m$次方根是个实数（即“有定义”）。
+
+    hint：方程有实数解。
+\end{exe}
+\begin{exe}[计算练习]求值：
+
+    （1）$8^{\frac{2}{3}}$;
+    
+    （2）$25^{-\frac{1}{2}}$;
+    
+    （3）$(\frac{1}{2})^{-5}$;
+    
+    （4）$(\frac{16}{81})^{-\frac{3}{4}}$
+\end{exe}
+\begin{exe}[计算]
+    \[(a^{-2}b^{-3})\cdot (-4a^{-1}b)\div (12a^{-4}b^{-2}c)\]
+\end{exe}
+\end{document}
